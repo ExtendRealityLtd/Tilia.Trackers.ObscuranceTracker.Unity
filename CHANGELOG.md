@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.0.0...v1.1.0) (2019-12-11)
+
+#### Features
+
+* **HowToGuides:** add docs for obscurance tracker ([7c85c3b](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/7c85c3b1730dab0cd1aa7cf636f1b279667c9641))
+  > added docs for obscurance tracker
+
 ## 1.0.0 (2019-12-10)
 
 #### Features
