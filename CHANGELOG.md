@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.11](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.10...v1.1.11) (2020-06-21)
+
+#### Bug Fixes
+
+* **Documentation:** apply style guidelines ([0c8703c](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/0c8703c5444d112aaca98f37a8337a7b756f237a))
+  > The guide has had the style guidelines applied to it to make it more consistent.
+
 ### [1.1.10](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.9...v1.1.10) (2020-06-07)
 
 #### Miscellaneous Chores
