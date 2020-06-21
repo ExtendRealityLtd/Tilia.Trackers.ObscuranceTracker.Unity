@@ -7,13 +7,11 @@
 > * Checked with: Unity 2018.3.14f1
 
 ## Introduction
-The `Obscurance Tracker` enables you to toggle the state of an object between being present or invisble based a `GameObject` obscuring the view between two other `GameObjects`
+The `Obscurance Tracker` prefab enables you to toggle the state of an object between being present or invisible based a GameObject obscuring the view between two other GameObjects.
 
 ## Prerequisites
 
 * [Install the Tilia.Trackers.ObscuranceTracker.Unity] package dependency in to your [Unity] project.
-
-
 
 ## Let's Start
 
@@ -40,7 +38,7 @@ Create a new `Cube` Unity 3D Object by selecting `Main Menu -> GameObject -> 3D 
 * Position: `X = 0`, `Y = 0`, `Z = 0`
 
 ![Adding A Third Cube](assets/images/AddingAThirdCube.png)
-	
+
 ### Step 4
 
 Create a new `Sphere` Unity 3D Object by selecting `Main Menu -> GameObject -> 3D Object -> Sphere` and change the `Transform` properties to:
@@ -51,39 +49,35 @@ Create a new `Sphere` Unity 3D Object by selecting `Main Menu -> GameObject -> 3
 
 ### Step 5
 
-Expand the `Tilia Trackers ObscuranceTracker Unity` Package directory in the Unity Project window and select then `Packages -> Tilia Trackers ObscuranceTracker Unity -> Runtime -> Prefabs -> Actions` directory then drag and drop the `Tilia Trackers ObscuranceTracker` prefab into the Hierarchy window.
+Expand the `Tilia Trackers ObscuranceTracker Unity` Package directory in the Unity Project window and select then `Packages -> Tilia Trackers ObscuranceTracker Unity -> Runtime -> Prefabs` directory then drag and drop the `Trackers.ObscuranceTracker` prefab into the Hierarchy window.
 
 ![Adding The ObscuranceTracker](assets/images/AddingTheObscuranceTracker.png)
 
 ### Step 6
 
-Drag and drop the `Cube` GameObject from the Unity Hierarchy window into the `Source` parameter field.
+Drag and drop the `Cube` GameObject from the Unity Hierarchy window into the `Source` parameter on the `Obscurance Query` component.
 
 ![Drag And Drop Cube Into Source Parameter](assets/images/DragAndDropCubeIntoSourceParameter.png)
 
 ### Step 7
 
-Drag and drop the `Cube (1)` GameObject from the Unity Hierarchy window into the `Target` parameter field.
+Drag and drop the `Cube (1)` GameObject from the Unity Hierarchy window into the `Target` parameter on the `Obscurance Query` component.
 
-![Drag And Drop Cube(1) Into Source Parameter](assets/images/DragAndDropCube(1)IntoSourceParameter.png)
+![Drag And Drop Cube1 Into Target Parameter](assets/images/DragAndDropCube1IntoTargetParameter.png)
 
 ### Step 8
 
-Click the `+` symbol in the bottom right corner of the `Target Obscured` event parameter in the `Obscurance Query` component.
+Select the `Trackers.ObscuranceTracker` GameObject from the Unity Hierarchy and click the `+` symbol in the bottom right corner of the `Target Obscured` event parameter on the `Obscurance Query` component.
 
-![Click+Symbol](assets/images/Click+Symbol.png)
+Drag and drop the `Sphere` GameObject into the event listener box that appears on the `Target Obscured` event parameter on the `Obscurance Query` component that displays `None (Object)`.
 
-Drag and drop the `Sphere` GameObject into the box that appears and displays `None (Object)`.
+![Add Target Obscured Event](assets/images/AddTargetObscuredEvent.png)
 
-![Drag And Drop Sphere](assets/images/DragAndDropSphere.png)
-
-### Step 9
-
-Select a `Function` to perform when the `Target Obscured` event is emitted. For this example, select `GameObject -> SetActive(bool)` (be sure not to select `Dynamic bool - SetActive` for this example).
+Select a function to perform when the `Target Obscured` event is emitted. For this example, select the `GameObject -> SetActive(bool)` function (be sure not to select `Dynamic bool - SetActive` for this example).
 
 ![Set Target Obscured Active Bool](assets/images/SetTargetObscuredActiveBool.png)
 
-### Step 10
+### Step 9
 
 Do The same as Step 9 for the `Target Unobscured` but tick the checkbox.
 
@@ -97,9 +91,11 @@ This causes the `Target Obscured` event to emit, which we've set to disable our 
 
 ![No Sphere](assets/images/NoSphere.png)
 
-Now just change the `Cube (2`) Transform `y` position to `-2`
+Now just select the `Cube (2)` GameObject in the Unity Hierarchy and change the `Transform` properties to:
 
-![Set Value To -2](assets/images/SetValueTo-2.png)
+* Position: `X = 0`, `Y = -2`, `Z = 0`
+
+![Move Cube 2 Out Of The Way](assets/images/MoveCube2OutOfTheWay.png)
 
 And now `Cube` does have direct line of sight of `Cube (1)` so the target is no longer obscured and the `Sphere` GameObject will become active.
 
