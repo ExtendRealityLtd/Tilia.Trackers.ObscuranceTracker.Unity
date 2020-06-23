@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.12](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.11...v1.1.12) (2020-06-23)
+
+#### Bug Fixes
+
+* **HowToGuides:** use correct step link ([9ff40c7](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/9ff40c764a0005318deb8e5f90724806049c06af))
+  > The step 9 step link wasn't a link and referred to step 9 instead of step 8. This has now been made into a link to the correct step.
+
 ### [1.1.11](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.10...v1.1.11) (2020-06-21)
 
 #### Bug Fixes
