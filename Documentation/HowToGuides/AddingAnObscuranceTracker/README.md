@@ -79,7 +79,7 @@ Select a function to perform when the `Target Obscured` event is emitted. For th
 
 ### Step 9
 
-Do The same as Step 9 for the `Target Unobscured` but tick the checkbox.
+Do the same as [Step 8] but for the `Target Unobscured` event parameter in the `Obscurance Query` component, but tick the checkbox on the `GameObject -> SetActive(bool)` function.
 
 ![Set Target Unobscured Active Bool](assets/images/SetTargetUnobscuredActiveBool.png)
 
@@ -103,3 +103,4 @@ And now `Cube` does have direct line of sight of `Cube (1)` so the target is no 
 
 [Install the Tilia.Trackers.ObscuranceTracker.Unity]: ../Installation/README.md
 [Unity]: https://unity3d.com/
+[Step 8]: #step-8
