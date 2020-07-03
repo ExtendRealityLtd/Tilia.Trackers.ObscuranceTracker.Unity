@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.13](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.12...v1.1.13) (2020-07-03)
+
+#### Bug Fixes
+
+* **package.json:** add docfx.json file ([0a632a7](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/0a632a7be1f299aa4ed7f3ab615267f231154302))
+  > The docfx.json file was missing from the package.json causing the build process to fail. It has now been added.
+
 ### [1.1.12](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.11...v1.1.12) (2020-06-23)
 
 #### Bug Fixes
