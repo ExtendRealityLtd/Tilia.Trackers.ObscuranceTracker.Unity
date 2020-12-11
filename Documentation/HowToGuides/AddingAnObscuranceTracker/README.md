@@ -49,7 +49,7 @@ Create a new `Sphere` Unity 3D Object by selecting `Main Menu -> GameObject -> 3
 
 ### Step 5
 
-Expand the `Tilia Trackers ObscuranceTracker Unity` Package directory in the Unity Project window and select then `Packages -> Tilia Trackers ObscuranceTracker Unity -> Runtime -> Prefabs` directory then drag and drop the `Trackers.ObscuranceTracker` prefab into the Hierarchy window.
+Expand the `Tilia Trackers ObscuranceTracker Unity` package directory in the Unity Project window and select then `Packages -> Tilia Trackers ObscuranceTracker Unity -> Runtime -> Prefabs` directory then drag and drop the `Trackers.ObscuranceTracker` prefab into the Unity Hierarchy window.
 
 ![Adding The ObscuranceTracker](assets/images/AddingTheObscuranceTracker.png)
 
@@ -67,7 +67,7 @@ Drag and drop the `Cube (1)` GameObject from the Unity Hierarchy window into the
 
 ### Step 8
 
-Select the `Trackers.ObscuranceTracker` GameObject from the Unity Hierarchy and click the `+` symbol in the bottom right corner of the `Target Obscured` event parameter on the `Obscurance Query` component.
+Select the `Trackers.ObscuranceTracker` GameObject from the Unity Hierarchy window and click the `+` symbol in the bottom right corner of the `Target Obscured` event parameter on the `Obscurance Query` component.
 
 Drag and drop the `Sphere` GameObject into the event listener box that appears on the `Target Obscured` event parameter on the `Obscurance Query` component that displays `None (Object)`.
 
@@ -91,7 +91,7 @@ This causes the `Target Obscured` event to emit, which we've set to disable our 
 
 ![No Sphere](assets/images/NoSphere.png)
 
-Now just select the `Cube (2)` GameObject in the Unity Hierarchy and change the `Transform` properties to:
+Now just select the `Cube (2)` GameObject in the Unity Hierarchy window and change the `Transform` properties to:
 
 * Position: `X = 0`, `Y = -2`, `Z = 0`
 
