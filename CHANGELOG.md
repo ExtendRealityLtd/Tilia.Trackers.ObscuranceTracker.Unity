@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.21](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.20...v1.1.21) (2020-12-11)
+
+#### Bug Fixes
+
+* **HowToGuides:** apply document styling guidelines ([dfae47d](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/dfae47d5469a47c5d3e15ac88fdc4b13ae573d01))
+  > The document style guidelines have been updated and now have been applied to the guides in this repo.
+
 ### [1.1.20](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.19...v1.1.20) (2020-11-01)
 
 #### Miscellaneous Chores
