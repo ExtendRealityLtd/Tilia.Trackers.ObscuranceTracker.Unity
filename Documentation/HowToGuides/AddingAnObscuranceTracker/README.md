@@ -49,9 +49,7 @@ Create a new `Sphere` Unity 3D Object by selecting `Main Menu -> GameObject -> 3
 
 ### Step 5
 
-Expand the `Tilia Trackers ObscuranceTracker Unity` package directory in the Unity Project window and select then `Packages -> Tilia Trackers ObscuranceTracker Unity -> Runtime -> Prefabs` directory then drag and drop the `Trackers.ObscuranceTracker` prefab into the Unity Hierarchy window.
-
-![Adding The ObscuranceTracker](assets/images/AddingTheObscuranceTracker.png)
+Add a `Trackers.ObscuranceTracker` prefab to the Unity project hierarchy by selecting `GameObject -> Tilia -> Prefabs -> Trackers -> Trackers.ObscuranceTracker` from the Unity main top menu.
 
 ### Step 6
 
