@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.29...v1.2.0) (2021-04-07)
+
+#### Features
+
+* **Utility:** add prefab creator ([edcbef1](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/edcbef1c32431c0f6f2f37bbd21f6520544ebe6e))
+  > The latest version of Zinnia has the basis of a prefab creator that can be used to enable easy adding of prefabs to a scene without needing to drag and drop from directories. Instead a new menu item is added for quickly adding prefabs. The guide has been updated to accommodate this and the FodyWeavers.xml is now located in the root to serve both the Runtime and Editor scripts.
+
+#### Bug Fixes
+
+* **package.json:** add missing reference to Editor directory ([88c0fbc](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/88c0fbc6a52bea088aa46f648afb4d1fddbea92a))
+  > The build will fail without referencing this new Editor directory so it has now been added to the package.
+
 ### [1.1.29](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.1.28...v1.1.29) (2021-03-29)
 
 #### Miscellaneous Chores
