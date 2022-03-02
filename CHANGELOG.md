@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.2.15...v1.3.0) (2022-03-02)
+
+#### Features
+
+* **package.json:** add information urls to package ([bd78e0e](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/bd78e0e7c8bda77f7e4e465156970fbbd789c9d9))
+  > The changelog, documentation and license url has been added to the package.json as these are used within the Unity package manager.
+
 ### [1.2.15](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v1.2.14...v1.2.15) (2022-02-14)
 
 #### Miscellaneous Chores
