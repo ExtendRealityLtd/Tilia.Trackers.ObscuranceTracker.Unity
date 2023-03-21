@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.11](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v2.0.10...v2.0.11) (2023-03-21)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 2.7.2 to 2.8.0 ([9b971b0](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/commit/9b971b01a445f1bcd7453e643c5d416c2548b96a))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 2.7.2 to 2.8.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v2.7.2...v2.8.0)
+
 ### [2.0.10](https://github.com/ExtendRealityLtd/Tilia.Trackers.ObscuranceTracker.Unity/compare/v2.0.9...v2.0.10) (2023-03-16)
 
 #### Miscellaneous Chores
